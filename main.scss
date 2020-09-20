@@ -332,8 +332,41 @@
 
 /* Search */
 #search-results {
-  background-color: $color-bg-third !important;
-  .searchOption-zQ-1l6.selected-rZcOL- {
+  background-color: $color-bg-second !important;
+  .searchOption-zQ-1l6 {
+    &::after {
+      display: none;
+    }
+    &.selected-rZcOL- {
+      background-color: $color-bg-third !important;
+    }
+  }
+}
+
+.toolbar-1t6TWx {
+  margin-top: 100px;
+}
+
+.membersWrap-2h-GB4 {
+  margin-top: 50px;
+}
+
+.members-1998pB {
+  border-radius: 10px 10px 0 0;
+}
+
+.search-36MZv-,
+.toolbar-1t6TWx a,
+.toolbar-1t6TWx > .clickable-3rdHwn:last-of-type {
+  display: none;
+}
+
+.nowPlayingScroller-2XrVUt {
+  section {
+    background-color: $color-bg-second;
+  }
+
+  .itemCard-v9viV7:hover {
     background-color: $color-bg-four !important;
   }
 }

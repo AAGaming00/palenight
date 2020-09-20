@@ -3,11 +3,11 @@
 */
 
 /** General Colors **/
-$color-white: #ffffff;
-$color-yellow: #ffba00;
+$color-white: #ffffff !default;
+$color-yellow: #ffba00 !default;
 
 /** Brand Colors **/
-$color-blurple: #7289da;
+$color-blurple: #7289da !default;
 $color-nitro-p: #ff73fa;
 $color-spotify: #1ad860;
 
@@ -22,7 +22,7 @@ $color-streaming: #593695;
 $color-bg-main: #292d3e;
 $color-bg-second: #1b1e2b;
 $color-bg-third: #181a24;
-$color-bg-four: #18191c;
+$color-bg-four: #11121a;
 $color-bg-scrollbar: #3a3d51;
 $color-link: #a6accd;
 $color-interactive-normal: #a6accd;
