@@ -2,15 +2,6 @@
 --------------------------- Imports -----------------------------
 ---------------------------------------------------------------*/
 
-/*           -------------- Variables --------------           */
-@import "src/vars";
-
-/*           --------------- Config ----------------           */
-@import "src/config";
-
-/*           ---------- Community Imports ----------           */
-@import "src/community-imports";
-
 /*           ---------- Channel Indicators ---------           */
 @import "src/tweaks/channel-indicators";
 
@@ -109,7 +100,7 @@
   }
 }
 /* Cards */
-.card-3Qj_Yx {
+.cardPrimary-1Hv-to {
   background-color: var(--background-secondary);
   border-color: var(--background-tertiary);
 }
@@ -138,10 +129,14 @@
   }
 
   .buttons {
-    .colorGreen-29iAKY:hover {
-      background-color: $color-online;
-      .flexChild-faoVW3 {
-        color: $color-white;
+    .colorGreen-29iAKY {
+      border: 1px solid $color-online !important;
+      background-color: transparent;
+      &:hover {
+        background-color: $color-online;
+        .flexChild-faoVW3 {
+          color: $color-white;
+        }
       }
     }
     .colorBrand-3pXr91 {
@@ -342,9 +337,10 @@
     }
   }
 }
-
-.toolbar-1t6TWx {
+/*
+.title-3qD0b- .toolbar-1t6TWx {
   margin-top: 100px;
+  justify-content: center;
 }
 
 .membersWrap-2h-GB4 {
@@ -355,12 +351,12 @@
   border-radius: 10px 10px 0 0;
 }
 
-.search-36MZv-,
-.toolbar-1t6TWx a,
-.toolbar-1t6TWx > .clickable-3rdHwn:last-of-type {
+.title-3qD0b- .search-36MZv- {
   display: none;
 }
+*/
 
+/* frens playing */
 .nowPlayingScroller-2XrVUt {
   section {
     background-color: $color-bg-second;
