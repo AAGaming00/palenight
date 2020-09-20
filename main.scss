@@ -5,6 +5,9 @@
 /*           -------------- Variables --------------           */
 @import "src/vars";
 
+/*           ---------------- Config ---------------           */
+@import "src/config";
+
 /*           ------------- Combined Bar ------------           */
 @import "src/tweaks/combined-bar";
 
@@ -30,19 +33,19 @@
   --interactive-hover: #fff;
   --interactive-active: #fff;
   --interactive-muted: #4f545c;
-  --background-primary: $color-bg-main;
-  --background-secondary: $color-bg-second;
-  --background-secondary-alt: $color-bg-second;
-  --background-tertiary: $color-bg-third;
+  --background-primary: #{$color-bg-main};
+  --background-secondary: #{$color-bg-second};
+  --background-secondary-alt: #{$color-bg-second};
+  --background-tertiary: #{$color-bg-third};
   --background-accent: #4f545c;
-  --background-floating: $color-bg-four;
-  --background-mobile-primary: $color-bg-main;
-  --background-mobile-secondary: $color-bg-second;
-  --scrollbar-thin-thumb: $color-bg-scrollbar;
+  --background-floating: #{$color-bg-four};
+  --background-mobile-primary: #{$color-bg-main};
+  --background-mobile-secondary: #{$color-bg-second};
+  --scrollbar-thin-thumb: #{$color-bg-scrollbar};
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: $color-bg-scrollbar;
+  --scrollbar-auto-thumb: #{$color-bg-scrollbar};
   --scrollbar-auto-track: transparent;
-  --scrollbar-auto-scrollbar-color-thumb: $color-bg-scrollbar;
+  --scrollbar-auto-scrollbar-color-thumb: #{$color-bg-scrollbar};
   --scrollbar-auto-scrollbar-color-track: transparent;
   --channeltextarea-background: #333747;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);

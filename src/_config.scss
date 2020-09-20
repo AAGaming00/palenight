@@ -2,14 +2,8 @@
 ============================ Config =============================
 ===============================================================*/
 
-/*           ============= White Badges ============           */
-$white-badges-enabled: true;
-
-/*           ========== White Connections ==========           */
-$white-connecitons-enabled: true;
-
-/*           ============ Better Spotify ===========           */
-$spotify-enabled: true;
+/*           ========== Channel Indicators =========           */
+$channel-indicators-enabled: true;
 
 /*           ============ Combined Bar =============           */
 $combined-bar-enabled: true;
@@ -20,14 +14,29 @@ $home-icon-enabled: true;
 /*           ========== Member List Roles ==========           */
 $member-list-roles-enabled: true;
 
-/*           =========== Unread Channels ===========           */
-$channel-indicators-enabled: true;
-
-/*           ====== Total Member Count Plugin ======           */
-$total-member-count-plugin-enabled: true;
+/*           ============= Remove Items ============           */
+$remove-items-enabled: true;
 
 /*           ========== Replace All Green ==========           */
 $replace-all-green: false;
 
+/*           ================ Spotify ==============           */
+$spotify-enabled: true;
+
+/*           ========== Square Server Icons ========           */
+$square-server-icons-enabled: true;
+
+/*           ====== Total Member Count Plugin ======           */
+$total-member-count-plugin-enabled: true;
+
+/*           ================ USRBG ================           */
+$usrbg-enabled: true;
+
+/*           ============= White Badges ============           */
+$white-badges-enabled: true;
+
+/*           ========== White Connections ==========           */
+$white-connections-enabled: true;
+
 /*           ======= Yellow Permission Ticks =======           */
-$yellow-permission-ticks: true;
+$yellow-permission-ticks-enabled: true;
