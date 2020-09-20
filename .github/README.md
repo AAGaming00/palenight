@@ -1,7 +1,7 @@
 # Currently in Alpha stages, i don't recommend installing.
 
 # Palenight (ALPHA)
-A discord theme for powercord, based off of the Community Material Theme Palenight High Contrast VSCode theme.
+A discord theme for powercord, based off of the [Community Material Theme Palenight High Contrast](https://github.com/material-theme/vsc-community-material-theme/blob/release/themes/Community-Material-Theme-Palenight-High-Contrast.json) VSCode theme.
 
 <!-- 
 ## Installation
