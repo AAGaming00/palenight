@@ -1,0 +1,50 @@
+/*
+  Made by botato#6883 (440990343899643943)
+*/
+
+@import "../config";
+@import "../vars";
+
+@if $combined-bar-enabled {
+  .panels-j1Uci_ {
+    margin-bottom: 22px;
+    background-color: var(--channeltextarea-background);
+
+    & > .container-3baos1 {
+      height: 44px;
+      margin-left: 16px;
+      border-radius: 5px 0 0 5px;
+      background-color: var(--channeltextarea-background);
+
+      & > .directionRow-3v3tfG {
+        margin-right: -5px;
+
+        svg {
+          width: 24px;
+          height: auto;
+        }
+
+        button {
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+
+  .attachButton-2WznTc {
+    padding-left: 0 !important;
+    padding-right: 45px !important;
+  }
+
+  .chatContent-a9vAAp > form {
+    padding-left: 0 !important;
+  }
+
+  .channelTextArea-rNsIhG {
+    border-radius: 0 !important;
+
+    & > div {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+}

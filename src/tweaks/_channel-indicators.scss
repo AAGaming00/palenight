@@ -1,0 +1,24 @@
+/*
+  Made by botato#6883 (440990343899643943)
+*/
+
+@import "../config";
+@import "../vars";
+
+@if $channel-indicators-enabled {
+  #channels {
+    .unread-3zKkbm {
+      display: none;
+    }
+
+    .wrapper-1ucjTd:hover,
+    .modeUnread-1zpFdA,
+    .modeSelected-1zApJ_ {
+      svg {
+        path {
+          fill: $color-white;
+        }
+      }
+    }
+  }
+}

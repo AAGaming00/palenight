@@ -1,0 +1,8 @@
+{
+  "name": "Palenight",
+  "description": "Based off of the Community Material Theme Palenight High Contrast Visual Studio Code theme.",
+  "author": "botato",
+  "theme": "main.scss",
+  "version": "0.0.1",
+  "license": "MIT"
+}

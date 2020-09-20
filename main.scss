@@ -1,0 +1,250 @@
+/*---------------------------------------------------------------
+--------------------------- Imports -----------------------------
+---------------------------------------------------------------*/
+
+/*           -------------- Variables --------------           */
+@import "src/vars";
+
+/*           ------------- Combined Bar ------------           */
+@import "src/tweaks/combined-bar";
+
+/*           -------------- Home Icon --------------           */
+@import "src/tweaks/home-icon";
+
+/*           ---------- Member List Roles ----------           */
+@import "src/tweaks/member-list-roles";
+
+/*           --------------- Spotify ---------------           */
+@import "src/tweaks/spotify";
+
+/*           ---------- Channel Indicators ---------           */
+@import "src/tweaks/channel-indicators";
+
+.theme-dark {
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
+  --text-normal: #dcdddd;
+  --text-muted: #52576c;
+  --text-link: #a6accd;
+  --interactive-normal: #a6accd;
+  --interactive-hover: #fff;
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
+  --background-primary: $color-bg-main;
+  --background-secondary: $color-bg-second;
+  --background-secondary-alt: $color-bg-second;
+  --background-tertiary: $color-bg-third;
+  --background-accent: #4f545c;
+  --background-floating: $color-bg-four;
+  --background-mobile-primary: $color-bg-main;
+  --background-mobile-secondary: $color-bg-second;
+  --scrollbar-thin-thumb: $color-bg-scrollbar;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: $color-bg-scrollbar;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: $color-bg-scrollbar;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+  --channeltextarea-background: #333747;
+  --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+}
+
+/* Links */
+:not(.container-1ov-mD) .anchor-3Z-8Bb:not(.imageZoom-1n-ADA) {
+  text-decoration: underline !important;
+
+  &:hover {
+    background-color: #7289da20;
+  }
+}
+
+.anchor-3Z-8Bb {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: underline !important;
+    background-color: inherit;
+  }
+}
+
+/* Friends */
+.peopleColumn-29fq28 {
+  background-color: var(--background-primary);
+}
+
+/* Server Unread */
+.pill-31IEus .item-2hkk8m {
+  border-radius: 0;
+  background-color: #a6accd !important;
+}
+
+/* Powercord Toast */
+.powercord-toast {
+  background-color: var(--background-secondary);
+
+  .header {
+    background-color: var(--background-tertiary);
+  }
+
+  .contents .inner {
+    background-color: var(--background-primary);
+  }
+
+  .buttons {
+    .colorGreen-29iAKY:hover {
+      background-color: $color-online;
+      .flexChild-faoVW3 {
+        color: $color-white;
+      }
+    }
+    .colorBrand-3pXr91 {
+      border: 1px solid $color-blurple !important;
+      background-color: transparent;
+      &:hover {
+        background-color: $color-blurple;
+        .flexChild-faoVW3 {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
+/* HypeSquad Test & Other modals */
+.root-1gCeng {
+  .content-1LAB8Z {
+    background-color: var(--background-primary);
+  }
+
+  .footer-2gL1pp {
+    background-color: var(--background-secondary);
+  }
+
+  & > div:not(.footer-2gL1pp) {
+    background-color: var(--background-primary);
+  }
+}
+
+/* Upload Modal */
+.uploadModal-2ifh8j {
+  .inner-3nWsbo {
+    background-color: var(--background-primary);
+  }
+  .footer-3mqk7D {
+    background-color: var(--background-secondary);
+  }
+}
+
+/* Camera Test */
+.previewOverlay-2O7_KC {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Image Background */
+.wrapper-2K4Z3k {
+  background: none !important;
+}
+
+/* Profile */
+.userPopout-3XzG_A {
+  background-color: var(--background-secondary);
+  .headerNormal-T_seeN {
+    background-color: var(--background-tertiary);
+  }
+  .body-3iLsc4,
+  .footer-1fjuF6 {
+    background-color: var(--background-secondary);
+  }
+}
+
+.note-QfFU8y > textarea {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Inbox */
+.menu-3sdvDG {
+  background-color: var(--background-tertiary);
+}
+.hasMore-sul95G {
+  justify-content: center;
+  margin-bottom: 10px;
+  .hasMoreButton-1MELpI {
+    width: 50%;
+    border-color: $color-blurple;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blurple;
+      transition: all 0.5s;
+    }
+  }
+}
+
+/* Emoji Picker */
+#emoji-grid .header-ywPcAE {
+  background-color: transparent;
+}
+
+#emoji-grid .imageLoading-bpSr0M {
+  background-color: var(--background-primary);
+}
+
+/* Region Selector */
+.regionSelectModal-12e-57 {
+  background: var(--background-primary) !important;
+}
+.regionSelectModalOption-2DSIZ3 {
+  background: var(--background-secondary) !important;
+  border-color: var(--background-secondary-alt) !important;
+}
+.regionSelectModalOption-2DSIZ3:hover {
+  border-color: var(--background-tertiary) !important;
+}
+
+/* Powercord QuickCSS */
+.powercord-quickcss {
+  border-radius: 5px;
+  border: 1px solid var(--background-tertiary);
+
+  &.popped-out {
+    overflow: hidden;
+    border: 1px solid var(--background-tertiary);
+    background: var(--background-secondary) url("/assets/5ac53bbce4bc51dd14d5413bd7d1c77d.svg") no-repeat 50% 35%/30%;
+  }
+}
+
+.powercord-entities-manage-tabs {
+  border: 1px solid var(--background-tertiary);
+}
+
+.powercord-quickcss-popped {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  width: 360px;
+
+  &::after {
+    content: ".";
+  }
+}
+
+.powercord-codeblock-copy-btn {
+  font-family: "Fira Code" !important;
+
+  &.copied {
+    background-color: $color-blurple !important;
+  }
+}
+
+.powercord-entities-manage-tabs {
+  .topPill-30KHOu {
+    justify-content: center;
+  }
+}
+
+.powercord-quickcss .CodeMirror-dialog-top,
+.CodeMirror-gutters {
+  background: var(--background-secondary-alt);
+}
