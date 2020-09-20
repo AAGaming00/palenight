@@ -4,7 +4,9 @@
 
 @if $remove-items-enabled {
   /* "Help!" Icon (Top Right) */
-  a[href="https://support.discord.com"]
+  a[href="https://support.discord.com"],
+  /* "Learn More" in search */
+  a[href="https://support.discord.com/hc/en-us/articles/115000468588"]
   {
     display: none;
   }

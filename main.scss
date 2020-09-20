@@ -5,8 +5,14 @@
 /*           -------------- Variables --------------           */
 @import "src/vars";
 
-/*           ---------------- Config ---------------           */
+/*           --------------- Config ----------------           */
 @import "src/config";
+
+/*           ---------- Community Imports ----------           */
+@import "src/community-imports";
+
+/*           ---------- Channel Indicators ---------           */
+@import "src/tweaks/channel-indicators";
 
 /*           ------------- Combined Bar ------------           */
 @import "src/tweaks/combined-bar";
@@ -17,19 +23,40 @@
 /*           ---------- Member List Roles ----------           */
 @import "src/tweaks/member-list-roles";
 
+/*           ------------ Remove Items -------------           */
+@import "src/tweaks/remove-items";
+
+/*           ---------- Replace all Green ----------           */
+@import "src/tweaks/replace-all-green";
+
 /*           --------------- Spotify ---------------           */
 @import "src/tweaks/spotify";
 
-/*           ---------- Channel Indicators ---------           */
-@import "src/tweaks/channel-indicators";
+/*           --------- Square Server Icons ---------           */
+@import "src/tweaks/square-server-icons";
+
+/*           ------ Total Member Count Plugin ------           */
+@import "src/tweaks/total-member-count-plugin";
+
+/*           ---------------- USRBG ----------------           */
+@import "src/tweaks/usrbg";
+
+/*           ------------- White Badges ------------           */
+@import "src/tweaks/white-badges";
+
+/*           ---------- White Connections ----------           */
+@import "src/tweaks/white-connections";
+
+/*           ------- Yellow Permission Ticks -------           */
+@import "src/tweaks/yellow-permission-ticks";
 
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #b9bbbe;
   --text-normal: #dcdddd;
   --text-muted: #52576c;
-  --text-link: #a6accd;
-  --interactive-normal: #a6accd;
+  --text-link: #{$color-link};
+  --interactive-normal: #{$color-interactive-normal};
   --interactive-hover: #fff;
   --interactive-active: #fff;
   --interactive-muted: #4f545c;
@@ -69,6 +96,24 @@
   }
 }
 
+/* thing */
+.css-n57xjs-menu {
+  background-color: $color-bg-second;
+
+  .css-1aymab5-option {
+    background-color: $color-bg-second;
+
+    &:hover {
+      background-color: $color-bg-third !important;
+    }
+  }
+}
+/* Cards */
+.card-3Qj_Yx {
+  background-color: var(--background-secondary);
+  border-color: var(--background-tertiary);
+}
+
 /* Friends */
 .peopleColumn-29fq28 {
   background-color: var(--background-primary);
@@ -77,7 +122,7 @@
 /* Server Unread */
 .pill-31IEus .item-2hkk8m {
   border-radius: 0;
-  background-color: #a6accd !important;
+  background-color: $color-interactive-normal !important;
 }
 
 /* Powercord Toast */
@@ -252,8 +297,43 @@
   background: var(--background-secondary-alt);
 }
 
-
 /* AAGaming's AudioViz */
 .vp-audioviz-visualizer {
   margin-left: -16px;
+}
+
+/* Replies */
+.replyBadge-bDxE-3 {
+  background-color: transparent;
+  margin-right: 2px;
+
+  & + .content-2FB3dM {
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .replyIcon-18NxvM {
+    path {
+      color: $color-interactive-normal;
+    }
+  }
+}
+
+/* AutoComplete */
+.autocompleteInner-zh20B_ {
+  background-color: $color-bg-third !important;
+
+  .autocompleteRow-2OthDa:hover {
+    background-color: $color-bg-four !important;
+  }
+}
+
+/* Search */
+#search-results {
+  background-color: $color-bg-third !important;
+  .searchOption-zQ-1l6.selected-rZcOL- {
+    background-color: $color-bg-four !important;
+  }
 }
