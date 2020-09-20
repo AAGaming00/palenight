@@ -3,7 +3,7 @@
 */
 
 @if $square-server-icons-enabled {
-  .blobContainer-239gwq svg > foreignObject {
+  div[data-ref-id^="guildsnav-"] .blobContainer-239gwq svg > foreignObject {
     mask: none;
   }
 }
