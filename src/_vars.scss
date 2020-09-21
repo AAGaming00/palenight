@@ -2,6 +2,28 @@
   Made by botato#6883 (440990343899643943), beacause i'm too lazy to type these manually
 */
 
+/*----------------- CONFIG THIS -----------------*/
+$color-bg-main: #292d3e !default;
+$color-bg-second: #1b1e2b !default;
+$color-bg-third: #181a24 !default;
+$color-bg-four: #11121a !default;
+$color-bg-scrollbar: #3a3d51 !default;
+$color-link: #a6accd !default;
+$color-interactive-normal: #a6accd !default;
+
+/* Spotify */
+$spotify-bg: $color-bg-third;
+$spotify-song-name-color: var(--header-primary);
+$spotify-song-author-color: var(--header-secondary);
+$spotify-song-time-color: var(--header-secondary);
+$spotify-song-time-font-size: 70%;
+$spotify-seek-bar-background-color: var(--background-modifier-active);
+$spotify-seek-bar-foreground-color: $color-spotify;
+$spotify-hide-by-text: true;
+
+/*----------------- DON'T TOUCH -----------------*/
+$palenight-version: "0.0.1";
+
 /** General Colors **/
 $color-white: #ffffff !default;
 $color-yellow: #ffba00 !default;
@@ -17,15 +39,6 @@ $color-dnd: #f04747 !default;
 $color-idle: #faa61a !default;
 $color-offline: #747f8d !default;
 $color-streaming: #593695 !default;
-
-/** Theme Colors **/
-$color-bg-main: #292d3e !default;
-$color-bg-second: #1b1e2b !default;
-$color-bg-third: #181a24 !default;
-$color-bg-four: #11121a !default;
-$color-bg-scrollbar: #3a3d51 !default;
-$color-link: #a6accd !default;
-$color-interactive-normal: #a6accd !default;
 
 /** Rainbow Colors **/
 $color-rainbow-1: #6666ff !default;

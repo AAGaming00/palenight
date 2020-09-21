@@ -3,13 +3,16 @@
 ---------------------------------------------------------------*/
 
 /*           ---------- Channel Indicators ---------           */
-@import "src/tweaks/channel-indicators";
+@import "src/tweaks/channel-list/channel-indicators";
 
 /*           ------------- Combined Bar ------------           */
-@import "src/tweaks/combined-bar";
+@import "src/tweaks/channel-list/combined-bar";
 
 /*           -------------- Home Icon --------------           */
-@import "src/tweaks/home-icon";
+@import "src/tweaks/server-list/home-icon";
+
+/*           --------- Square Server Icons ---------           */
+@import "src/tweaks/server-list/square-server-icons";
 
 /*           ---------- Member List Roles ----------           */
 @import "src/tweaks/member-list-roles";
@@ -21,25 +24,25 @@
 @import "src/tweaks/replace-all-green";
 
 /*           --------------- Spotify ---------------           */
-@import "src/tweaks/spotify";
-
-/*           --------- Square Server Icons ---------           */
-@import "src/tweaks/square-server-icons";
+@import "src/tweaks/channel-list/spotify";
 
 /*           ------ Total Member Count Plugin ------           */
-@import "src/tweaks/total-member-count-plugin";
+@import "src/tweaks/plugins/total-member-count";
 
 /*           ---------------- USRBG ----------------           */
-@import "src/tweaks/usrbg";
+@import "src/tweaks/user-profile-popout/usrbg";
 
 /*           ------------- White Badges ------------           */
-@import "src/tweaks/white-badges";
+@import "src/tweaks/user-profile-popout/white-badges";
 
 /*           ---------- White Connections ----------           */
-@import "src/tweaks/white-connections";
+@import "src/tweaks/user-profile-popout/white-connections";
 
 /*           ------- Yellow Permission Ticks -------           */
-@import "src/tweaks/yellow-permission-ticks";
+@import "src/tweaks/settings/yellow-permission-ticks";
+
+/*           ---------------- Fonts ----------------           */
+@import "src/fonts/import.scss";
 
 .theme-dark {
   --header-primary: #fff;
@@ -67,6 +70,11 @@
   --scrollbar-auto-scrollbar-color-track: transparent;
   --channeltextarea-background: #333747;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+}
+
+div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
+  content: "Palenight by botato (" $palenight-version ")";
+  display: block;
 }
 
 /* Links */
@@ -365,4 +373,18 @@
   .itemCard-v9viV7:hover {
     background-color: $color-bg-four !important;
   }
+}
+
+/* Wordmark */
+.wordmark-2iDDfm svg {
+  width: 0;
+}
+
+.wordmark-2iDDfm::before {
+  content: "Palenight";
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: -3px;
+  font-family: Discord;
 }
