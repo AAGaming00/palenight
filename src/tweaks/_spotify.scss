@@ -2,6 +2,9 @@
   Made by "a cat#7355" (644747939398549504) and tweaked by botato#6883 (440990343899643943)
 */
 
+@import "../config";
+@import "../vars";
+
 @if $spotify-enabled {
   .powercord-spotify {
     padding-bottom: 10px;

@@ -2,6 +2,9 @@
   Made by botato#6883 (440990343899643943)
 */
 
+@import "../config";
+@import "../vars";
+
 @if $total-member-count-plugin-enabled {
   .total-members-count {
     &:first-child {
