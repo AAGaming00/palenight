@@ -1,11 +1,6 @@
-/*
-  Made by Ben855#0855 (465668689920917534)
-*/
+// Made by Ben855#0855 (465668689920917534)
 
-@import "../config";
-@import "../vars";
-
-@if $replace-all-green {
+@if ($replace-all-green) {
   .colorStatusGreen-2saF4_ {
     color: $color-blurple;
   }

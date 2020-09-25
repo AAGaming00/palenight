@@ -1,48 +1,50 @@
-/*---------------------------------------------------------------
---------------------------- Imports -----------------------------
----------------------------------------------------------------*/
+//---------------------------------------------------------------
+//--------------------------- Imports ---------------------------
+//---------------------------------------------------------------
 
-/*           ---------- Channel Indicators ---------           */
+//           ---------- Channel Indicators ---------
 @import "src/tweaks/channel-list/channel-indicators";
 
-/*           ------------- Combined Bar ------------           */
+//           ------------- Combined Bar ------------
 @import "src/tweaks/channel-list/combined-bar";
 
-/*           -------------- Home Icon --------------           */
+//           -------------- Home Icon --------------
 @import "src/tweaks/server-list/home-icon";
 
-/*           --------- Square Server Icons ---------           */
+//           --------- Square Server Icons ---------
 @import "src/tweaks/server-list/square-server-icons";
 
-/*           ---------- Member List Roles ----------           */
+//           ---------- Member List Roles ----------
 @import "src/tweaks/member-list-roles";
 
-/*           ------------ Remove Items -------------           */
+//           ------------ Remove Items -------------
 @import "src/tweaks/remove-items";
 
-/*           ---------- Replace all Green ----------           */
+//           ---------- Replace all Green ----------
 @import "src/tweaks/replace-all-green";
 
-/*           --------------- Spotify ---------------           */
+//           --------------- Spotify ---------------
 @import "src/tweaks/channel-list/spotify";
 
-/*           ------ Total Member Count Plugin ------           */
+//           ------ Total Member Count Plugin ------
 @import "src/tweaks/plugins/total-member-count";
 
-/*           ---------------- USRBG ----------------           */
+//           ---------------- USRBG ----------------
 @import "src/tweaks/user-profile-popout/usrbg";
 
-/*           ------------- White Badges ------------           */
+//           ------------- White Badges ------------
 @import "src/tweaks/user-profile-popout/white-badges";
 
-/*           ---------- White Connections ----------           */
+//           ---------- White Connections ----------
 @import "src/tweaks/user-profile-popout/white-connections";
 
-/*           ------- Yellow Permission Ticks -------           */
+//           ------- Yellow Permission Ticks -------
 @import "src/tweaks/settings/yellow-permission-ticks";
 
-/*           ---------------- Fonts ----------------           */
+//           ---------------- Fonts ----------------
 @import "src/fonts/import.scss";
+
+//           ----------------- Vars ----------------
 
 .theme-dark {
   --header-primary: #fff;
@@ -77,7 +79,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   display: block;
 }
 
-/* Links */
+// Links
 :not(.container-1ov-mD) .anchor-3Z-8Bb:not(.imageZoom-1n-ADA) {
   text-decoration: underline !important;
 
@@ -95,7 +97,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* thing */
+// thing
 .css-n57xjs-menu {
   background-color: $color-bg-second;
 
@@ -107,24 +109,24 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
     }
   }
 }
-/* Cards */
+// Cards
 .cardPrimary-1Hv-to {
   background-color: var(--background-secondary);
   border-color: var(--background-tertiary);
 }
 
-/* Friends */
+// Friends
 .peopleColumn-29fq28 {
   background-color: var(--background-primary);
 }
 
-/* Server Unread */
+// Server Unread
 .pill-31IEus .item-2hkk8m {
   border-radius: 0;
   background-color: $color-interactive-normal !important;
 }
 
-/* Powercord Toast */
+// Powercord Toast
 .powercord-toast {
   background-color: var(--background-secondary);
 
@@ -170,7 +172,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* HypeSquad Test & Other modals */
+// HypeSquad Test & Other modals
 .root-1gCeng {
   .content-1LAB8Z {
     background-color: var(--background-primary);
@@ -185,7 +187,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* Upload Modal */
+// Upload Modal
 .uploadModal-2ifh8j {
   .inner-3nWsbo {
     background-color: var(--background-primary);
@@ -195,17 +197,17 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* Camera Test */
+// Camera Test
 .previewOverlay-2O7_KC {
   background-color: var(--background-secondary) !important;
 }
 
-/* Image Background */
+// Image Background
 .wrapper-2K4Z3k {
   background: none !important;
 }
 
-/* Profile */
+// Profile
 .userPopout-3XzG_A {
   background-color: var(--background-secondary);
   .headerNormal-T_seeN {
@@ -221,7 +223,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   background-color: var(--background-secondary) !important;
 }
 
-/* Inbox */
+// Inbox
 .menu-3sdvDG {
   background-color: var(--background-tertiary);
 }
@@ -240,7 +242,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* Emoji Picker */
+// Emoji Picker
 #emoji-grid .header-ywPcAE {
   background-color: transparent;
 }
@@ -249,7 +251,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   background-color: var(--background-primary);
 }
 
-/* Region Selector */
+// Region Selector
 .regionSelectModal-12e-57 {
   background: var(--background-primary) !important;
 }
@@ -261,7 +263,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   border-color: var(--background-tertiary) !important;
 }
 
-/* Powercord QuickCSS */
+// Powercord QuickCSS
 .powercord-quickcss {
   border-radius: 5px;
   border: 1px solid var(--background-tertiary);
@@ -310,12 +312,12 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   background: var(--background-secondary-alt);
 }
 
-/* AAGaming's AudioViz */
+// AAGaming's AudioViz
 .vp-audioviz-visualizer {
   margin-left: -16px;
 }
 
-/* Replies */
+// Replies
 .replyBadge-bDxE-3 {
   background-color: transparent;
   margin-right: 2px;
@@ -334,7 +336,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* AutoComplete */
+// AutoComplete
 .autocompleteInner-zh20B_ {
   background-color: $color-bg-third !important;
 
@@ -343,7 +345,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* Search */
+// Search
 #search-results {
   background-color: $color-bg-second !important;
   .option-96V44q {
@@ -355,7 +357,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
     }
   }
 }
-/*
+//
 .title-3qD0b- .toolbar-1t6TWx {
   margin-top: 100px;
   justify-content: center;
@@ -372,9 +374,8 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
 .title-3qD0b- .search-36MZv- {
   display: none;
 }
-*/
 
-/* frens playing */
+// frens playing
 .nowPlayingScroller-2XrVUt {
   section {
     background-color: $color-bg-second;
@@ -385,7 +386,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   }
 }
 
-/* Wordmark */
+// Wordmark
 .wordmark-2iDDfm svg {
   width: 0;
 }

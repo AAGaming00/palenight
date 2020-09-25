@@ -1,11 +1,4 @@
-/*
-
-*/
-
-@import "../config";
-@import "../vars";
-
-@if $dm-status-text-enabled {
+@if ($dm-status-text-enabled) {
   [aria-label="Online"]::after {
     content: "ONLINE";
     font-weight: bold;

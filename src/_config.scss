@@ -1,42 +1,48 @@
-/*===============================================================
-============================ Config =============================
-===============================================================*/
+//===============================================================
+//============================ Config ===========================
+//===============================================================
 
-/*           ========== Channel Indicators =========           */
+//           ========== Channel Indicators =========
 $channel-indicators-enabled: true;
 
-/*           ============ Combined Bar =============           */
+//           ============ Combined Bar =============
 $combined-bar-enabled: true;
 
-/*           ============= Home Icon ===============           */
+//           ========= Code Blocks Enabled =========
+$code-blocks-enabled: true;
+
+//           ============ DM Status Text ===========
+$dm-status-text-enabled: true;
+
+//           ============= Home Icon ===============
 $home-icon-enabled: true;
 
-/*           ========== Member List Roles ==========           */
+//           ========== Member List Roles ==========
 $member-list-roles-enabled: true;
 
-/*           ============= Remove Items ============           */
+//           ============= Remove Items ============
 $remove-items-enabled: true;
 
-/*           ========== Replace All Green ==========           */
+//           ========== Replace All Green ==========
 $replace-all-green: false;
 
-/*           ================ Spotify ==============           */
+//           ================ Spotify ==============
 $spotify-enabled: true;
 
-/*           ========== Square Server Icons ========           */
+//           ========== Square Server Icons ========
 $square-server-icons-enabled: true;
 
-/*           ====== Total Member Count Plugin ======           */
+//           ====== Total Member Count Plugin ======
 $total-member-count-plugin-enabled: true;
 
-/*           ================ USRBG ================           */
+//           ================ USRBG ================
 $usrbg-enabled: true;
 
-/*           ============= White Badges ============           */
+//           ============= White Badges ============
 $white-badges-enabled: true;
 
-/*           ========== White Connections ==========           */
+//           ========== White Connections ==========
 $white-connections-enabled: true;
 
-/*           ======= Yellow Permission Ticks =======           */
+//           ======= Yellow Permission Ticks =======
 $yellow-permission-ticks-enabled: true;

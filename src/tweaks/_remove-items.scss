@@ -1,15 +1,9 @@
-/*
-  Made by botato#6883 (440990343899643943)
-*/
+// Made by botato#6883 (440990343899643943)
 
-@import "../config";
-
-@if $remove-items-enabled {
+@if ($remove-items-enabled) {
   a {
-    /* "Help!" Icon (Top Right) */
-    &[href="https://support.discord.com"],
-    /* "Learn More" in search */
-    &[href="https://support.discord.com/hc/en-us/articles/115000468588"]
+    &[href="https://support.discord.com"], // "Help!" Icon (Top Right)
+    &[href="https://support.discord.com/hc/en-us/articles/115000468588"] // "Learn More" in search
     {
       display: none;
     }
