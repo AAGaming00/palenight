@@ -1,0 +1,18 @@
+//  Made by botato#6883 (440990343899643943)
+
+@if $total-member-count-plugin-enabled {
+  .total-members-count {
+    &:first-child {
+      margin-bottom: 5px;
+
+      span {
+        color: $color-offline;
+      }
+    }
+    &:last-child {
+      span {
+        color: $color-online;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+// Made by botato#6883 (440990343899643943)
+
+@if ($yellow-permission-ticks-enabled) {
+  .passthroughSelected-1Eq0Kl {
+    background-color: $color-yellow !important;
+  }
+
+  .passthrough-1c2ewQ:not(.passthroughSelected-1Eq0Kl) img {
+    content: url("../svgs/yellow-tick.svg");
+  }
+}

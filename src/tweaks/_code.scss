@@ -1,0 +1,21 @@
+$inline-code-font: "Fira Code, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace" !default;
+$inline-code-font-weight: 300 !default;
+$inline-code-font-size: 85% !default;
+
+$codeblock-font: "Fira Code, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace" !default;
+$codeblock-font-weight: 300 !default;
+$codeblock-font-size: 14px !default;
+
+@if ($code-blocks-enabled) {
+  .codeLine-14BKbG {
+    font-family: $codeblock-font;
+    font-weight: $codeblock-font-weight;
+    font-size: $codeblock-font-size;
+  }
+
+  .markup-2BOw-j code.inline {
+    font-family: $inline-code-font;
+    font-weight: $inline-code-font-weight;
+    font-size: $inline-code-font-size;
+  }
+}
