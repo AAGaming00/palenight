@@ -8,6 +8,9 @@
 //           ------------- Combined Bar ------------
 @import "src/tweaks/channel-list/combined-bar";
 
+//           ------------ DM Status Text -----------
+@import "src/tweaks/dm-status-text";
+
 //           -------------- Home Icon --------------
 @import "src/tweaks/server-list/home-icon";
 
@@ -357,7 +360,8 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
     }
   }
 }
-//
+
+// Bring Toolbar Down
 .title-3qD0b- .toolbar-1t6TWx {
   margin-top: 100px;
   justify-content: center;
